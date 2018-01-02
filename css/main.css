@@ -33,7 +33,7 @@ body {
 }
 
 .card-body h2 {
-  margin-top: 0;
+  margin: 0;
   font-weight: normal;
   padding-top: .86em;
 }
@@ -41,6 +41,7 @@ body {
 .card-body p {
   margin-top: 0;
   margin-bottom: 1.33em;
+
 }
 
 .card-img img {
@@ -56,7 +57,8 @@ body {
     line-height: 1.3;
   }
 
-  h1, p {
+  h1,
+  p {
     margin: 0 0 1.3rem;
   }
 
@@ -71,9 +73,9 @@ body {
     padding-left: 1.5em;
   }
 
-  .card-body, h2 {
-      padding-top: 0;
-    }
+  .card-body h2 {
+    padding-top: 0;
+  }
 
   .cards {
     padding: 0;
@@ -90,7 +92,8 @@ body {
     line-height: 1.4;
   }
 
-  h1, p {
+  h1,
+  p {
     margin: 0 0 1.4rem;
   }
 
